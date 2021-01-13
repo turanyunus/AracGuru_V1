@@ -1,0 +1,36 @@
+{
+  "name": "AracGuru",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "github:react-native-community/async-storage",
+    "@valdio/react-native-scrollable-tabview": "^0.8.12",
+    "jwt-decode": "^2.2.0",
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-elements": "^1.1.0",
+    "react-native-picker-select": "^6.1.1",
+    "react-native-ratings": "^6.5.0",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-vector-icons": "^6.5.0",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/runtime": "7.4.5",
+    "babel-jest": "24.8.0",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
